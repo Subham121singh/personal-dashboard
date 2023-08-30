@@ -96,6 +96,8 @@
 
     background-color: rgba($color: white, $alpha: 0.85);
 
+    border-radius: 2px;
+
     transition: all 0.2s;
     // HIDE BY DEFAULT
     opacity: 0;
@@ -106,4 +108,8 @@
     opacity: 1;
     transform: scaleX(1);
     transition-delay: 0.4s;
+}
+
+.tab.selected{
+    outline: none;
 }
